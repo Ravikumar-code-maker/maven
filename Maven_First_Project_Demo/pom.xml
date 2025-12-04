@@ -3,6 +3,15 @@
   <groupId>First_project</groupId>
   <artifactId>Maven_First_Project_Demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
+   <!-- ADDED: Properties to specify Java version for compilation -->
+  <properties>
+    <maven.compiler.source>11</maven.compiler.source>
+    <maven.compiler.target>11</maven.compiler.target>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <!-- END ADDED section -->
+
   <dependencies>
   <!-- https://mvnrepository.com/artifact/junit/junit -->
 <dependency>
